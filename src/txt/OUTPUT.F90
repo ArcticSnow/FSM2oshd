@@ -43,7 +43,7 @@ use STATE_VARIABLES, only: &
 ! ! Averages
 ! diags(:) = diags(:) / Nave
 
-write(uout,*) year,month,day,hour,sum(Ds),fsnow,sum(Sice+Sliq),Tsrf,Nsnow
+write(uout,*) year,month,day,hour,sum(Ds),fsnow,sum(Sice+Sliq),Tsrf,Tsoil
 
 ! diags(:) = 0
 ! SWint = 0
